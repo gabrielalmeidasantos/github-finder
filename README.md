@@ -1,4 +1,3 @@
 # GitHub Finder
 
-![image](https://user-images.githubusercontent.com/48861829/156270370-d0f2c90c-43dd-456d-ab03-b14cb0f86f68.png)
-
+![image](https://user-images.githubusercontent.com/48861829/156270443-9863cfa9-d0db-42ab-b84b-c9cde14d8184.png)
