@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finder</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>GitHub Finder</h1>
+    </div>
+    <div>
+      <form action="" class="search" id="form" >
+        <input class="input-pesquisar" autocomplete="off" id="input" placeholder="Digite o(a) usuário(a) do github" required></input>
+        <button>Buscar</button>
+      </form>
+    </div>
+    <div class="main">
+      <div class="left">
+        <img src="./img/github.png" alt="logo do github" class="logo-github" id="avatar"/>
+      </div>
+      <div class="right">
+        <div class="main-header">
+          <h1 class="nome">The GitHub</h1>
+          <span class="join" id="join">Criou em 25 jan 2011</span>
+        </div>
+        <div class="blue">
+          <span>
+            @<span class="nome">the GitHub</span>
+          </span>
+        </div>
+        <div class="info">
+          <div class="infos">
+            <span class="info-title">Repos_public</span>
+            <span class="info-quant" id="repos">0</span>
+          </div>
+          <div class="infos">
+            <span class="info-title">Followers</span>
+          <span class="info-quant" id="followers">0</span>
+          </div>
+          <div class="infos">
+            <span class="info-title">Following</span>
+            <span class="info-quant" id="following">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
