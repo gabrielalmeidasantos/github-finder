@@ -50,7 +50,7 @@ function getApi(nome, link = "") {
 function formatarData(dataParam) {
     let data = new Date(dataParam);
     let dataFormatada =
-        "Conta em: " +
+        "Criada em: " +
         data.getDate() +
         "/" +
         (data.getMonth() + 1) +
